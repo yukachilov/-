@@ -259,3 +259,11 @@ footer p {
 .mainbox {
   height: 100vh;
 }
+
+.smallbox {
+  background-color: black;
+  height: 260px;
+  width: 260px;
+  margin: 20px;
+  display: inline-block;
+}
