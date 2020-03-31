@@ -18,7 +18,7 @@ img {
 }
 .wrapper {
   position: relative;
-  height: 450px;
+  height: 300px;
 }
 .header {
   position: fixed;
@@ -257,13 +257,22 @@ footer p {
 }
 
 .mainbox {
-  height: 100vh;
+  display: inline;
 }
 
 .smallbox {
   background-color: black;
-  height: 260px;
+  height: auto;
   width: 260px;
   margin: 20px;
   display: inline-block;
+}
+
+.maincontents {
+ display: inline-block;
+ background-color: black;
+ width: auto;
+ height: 350px;
+ margin: 20px;
+ float: right;
 }
