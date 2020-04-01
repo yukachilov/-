@@ -8,6 +8,9 @@ body {
   color: #1e1e1e;
   background: white;
   height: 100%;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh; 
 }
 .L-tewelve {
   background-color: white;
